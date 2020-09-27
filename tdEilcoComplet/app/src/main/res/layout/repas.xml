@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservation du repas"
+            android:textStyle="italic"
+            android:textColor="@color/colorRepas"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+    <!--pour saisir le nom du repas-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/nomRepas"
+           android:textStyle="italic"
+           android:textFontWeight="400"
+           />
+       <EditText
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:hint="@string/nomRepas"/>
+    </LinearLayout>
+
+    <!--pour choisir l'accompagnement frommage ou fruit-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fromage"
+            android:textStyle="italic"
+            android:textFontWeight="400"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fruit"
+            android:textStyle="italic"
+            android:textFontWeight="400"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!--pour choisir le moment du repas-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/midi"
+            android:textFontWeight="400"
+            android:textStyle="italic"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soir"
+            android:textFontWeight="400"
+            android:textStyle="italic"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <!--pour valider le repas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <Button
+        android:id="@+id/valider"
+        android:text="@string/valider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"/>
+    </LinearLayout>
+</LinearLayout>

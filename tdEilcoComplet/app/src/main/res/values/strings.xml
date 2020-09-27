@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">td2Eilco</string>
+    <string name="message">Salut tout le monde !!!</string>
+    <string name="mdp">mot de passe</string>
+    <string name="dateNaissance">Date</string>
+    <string name="BTN1">BTN1</string>
+    <string name="BTN2">BTN2</string>
+    <string name="BTN3">BTN3</string>
+    <string name="BTN4">BTN4</string>
+    <string name="BTN5">BTN5</string>
+    <string name="nomRepas">Nom</string>
+    <string name="fromage">Fromage</string>
+    <string name="fruit">Fruit</string>
+    <string name="momentRepas">Moment </string>
+    <string name="midi">Midi</string>
+    <string name="soir">Soir</string>
+    <string name="valider">Valider</string>
+    <string name="heureMeteo">Heure</string>
+    <string name="temperature">Temperature(°C)</string>
+    <string name="vitesseVent">Vitesse(km/h)</string>
+    <string name="etatCiel">Etat du ciel </string>
+    <string-array name="etats">
+        <item>Degagé</item>
+        <item>Couvert</item>
+        <item>Pluvieux</item>
+    </string-array>
+</resources>
