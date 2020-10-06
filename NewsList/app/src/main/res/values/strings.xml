@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsList</string>
+    <string name="identifiant">Identifant</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="login">Connecter</string>
+    <string name="logout">Logout</string>
+    <string name="details">Details</string>
+    <string name="Ok">Ok</string>
+    <string name="informations">Informations</string>
+    <string name="about">About</string>
+</resources>
